@@ -126,7 +126,7 @@ function compareIgnoringTransparency (bufActual, bufExpected) {
   }
   const l2Distance = Math.round(Math.sqrt(sumSquareDiff))
   console.log('screenshot diff l2 distance: ' + l2Distance)
-  return l2Distance < 100
+  return l2Distance < 2000
 }
 
 // Resets the test directory, containing config.json, torrents, downloads, etc
